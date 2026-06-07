@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>HIMA Informatika UNSIA</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    nav {
+      background: #4e7869;
+      padding: 12px 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: bold;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      color: #1a1a2e;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    ul li a:hover {
+      color: #4f86f7;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4f86f7;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVIGASI INTERNAL -->
+<nav>
+  <a href="utswebsoal2.html">🏠 Beranda</a>
+  <a href="kegiatan.html">📅 Kegiatan</a>
+</nav>
+
+<!-- LOGO & NAMA ORGANISASI -->
+<header>
+  <img src="logo_unsia.png" alt="Logo UNSIA">
+  <h1>HIMA Informatika UNSIA</h1>
+  <p>Himpunan Mahasiswa Informatika — Universitas Siber Asia</p>
+</header>
+
+<main>
+
+  <!-- MEDIA SOSIAL -->
+  <section>
+    <h2>Media Sosial Kami</h2>
+    <ul>
+      <li><a href="https://instagram.com/unsia.informatika" target="_blank">📸 Instagram</a></li>
+      <li><a href="https://twitter.com/unsia.informatika" target="_blank">🐦 Twitter / X</a></li>
+      <li><a href="https://youtube.com/@UNSIATVONLINE" target="_blank">▶ YouTube</a></li>
+      <li><a href="https://linkedin.com/company/universitas-siber-asia" target="_blank">in LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <!-- WEBSITE RESMI (HALAMAN EKSTERNAL) -->
+  <section>
+    <h2>Website Resmi</h2>
+    <p>Kunjungi website resmi Universitas Siber Asia.</p>
+    <a href="https://unsia.ac.id" target="_blank" class="btn">🌐 Kunjungi unsia.ac.id ↗</a>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 HIMA Informatika UNSIA</p>
+</footer>
+
+</body>
+</html>
